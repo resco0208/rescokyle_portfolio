@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Resco</title>
+    <link href="./css/css/fontawesome.css" rel="stylesheet"/>
+    <link href="./css/css/brands.css" rel="stylesheet"/>
+    <link href="./css/css/solid.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="./assets/lightbox/lightbox.min.css">
+    <link rel="stylesheet" href="./css/main-style.css"/>
+</head>
+<body>
+    <div class="navbar">
+        <div class="content">
+            <div class="left">
+                <img src="./assets/logo.png" alt="logo">
+            </div>
+            <div class="right">
+                <a href="#home" class="links active">Home</a>
+                <a href="#aboutMe" class="links">About</a>
+                <a href="#projects" class="links">Projects</a>
+                <a href="#contact" class="links">Contact</a>
+            </div>
+            <div class="hamburger">
+                <a href="javascript:void(0)">
+                    <i class="fa-solid fa-bars"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="sidebar">
+        <a href="javascript:void(0)" class="close-btn">
+            <i class="fa-solid fa-xmark"></i>
+        </a>
+        <h2>Menu</h2>
+        <div class="wrapper">
+            <a href="#home" class="side-links" onclick="hide_sideNav()">Home</a>
+            <a href="#aboutMe" class="side-links" onclick="hide_sideNav()">About</a>
+            <a href="#projects" class="side-links" onclick="hide_sideNav()">Projects</a>
+            <a href="#contact" class="side-links" onclick="hide_sideNav()">Contact</a>
+        </div>
+    </div>
+
+    <section id="home">
+        <div class="text">
+            <p>If others can <span>do it</span>, let them <span>do it</span>.</p>
+        </div>
+        <a href="#contact" class="btn">Let's Work Together!</a>
+    </section>
+    <section id="aboutMe">
+        <div class="container">
+            <div class="left">
+                <h1>About Me</h1>
+                <div class="content">
+                    <div class="line"></div>
+                    <div class="text">
+                        <p>Hi, I'm <span class="name">Kyle Resco</span>. I specialize in web programming (HTML, CSS, JavaScript, PHP, and MySQL) and computer maintenance. I also have skills in photo and basic video editing. I'm passionate about using technology for innovation, and I'm committed to continuous learning in the tech industry. Seeking challenging opportunities to contribute effectively to organizational success.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <img src="./assets/me.png" alt="myself">
+            </div>
+        </div>
+
+        <div class="skills">
+            <h1>My Skills</h1>
+            <div class="skills-container">
+                <div class="card">
+                    <img src="./assets/html.png" alt="logo">
+                    <p>HTML</p>
+                </div>
+
+                <div class="card">
+                    <img src="./assets/css.png" alt="logo">
+                    <p>CSS</p>
+                </div>
+
+                <div class="card">
+                    <img src="./assets/js.png" alt="logo">
+                    <p>JavaScript</p>
+                </div>
+
+                <div class="card">
+                    <img src="./assets/php.png" alt="logo">
+                    <p>PHP</p>
+                </div>
+
+                <div class="card">
+                    <img src="./assets/mysql.png" alt="logo">
+                    <p>MySQL</p>
+                </div>
+
+                <div class="card">
+                    <img src="./assets/ps.png" alt="logo">
+                    <p>Photoshop</p>
+                </div>
+
+                <div class="card">
+                    <img src="./assets/figma.png" alt="logo">
+                    <p>Figma</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="services">
+            <h1>Services</h1>
+            <div class="wrapper">
+                <div class="content">
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Web development involves creating and maintaining websites and web applications, including design, content, and scripting.</p>
+                </div>
+
+                <div class="content">
+                    <i class="fa-solid fa-palette"></i>
+                    <h2>Web Design</h2>
+                    <p>Web design focuses on creating visually appealing and functional layouts for websites, encompassing aspects like user interface (UI) design and user experience (UX) optimization.</p>
+                </div>
+
+                <div class="content">
+                    <i class="fa-regular fa-object-group"></i>
+                    <h2>Responsive Web Design</h2>
+                    <p>Responsive web design ensures websites adapt seamlessly to various devices and screen sizes, optimizing user experience across desktops, tablets, and mobile devices.</p>
+                </div>
+
+                <div class="content">
+                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                    <h2>Computer Repair</h2>
+                    <p>Computer repair and maintenance includes diagnosing and fixing hardware and software issues to ensure computers operate smoothly and reliably.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h1 class="section-title">Projects</h1>
+        <div class="container">
+            <div class="project-title">
+                <h1>Iskolar App</h1>
+            </div>
+            <div class="description">
+                <p>The Iskolar App is an innovative online platform dedicated to monitoring and supporting the beneficiaries of the Pantawid Pamilyang Pilipino Program (4Ps). Leveraging a blend of modern technologies, the app provides a seamless and efficient way to track educational progress and ensure compliance with program requirements. This digital solution enhances transparency and improves the delivery of essential services to 4Ps beneficiaries, fostering better educational outcomes and social development.</p>
+            </div>
+            <div class="content">
+                <a href="javascript:void(0)" class="scroll-btn" id="scrollLeft"><i class="fa-solid fa-arrow-left"></i></a>
+                <div class="carousel" id="carousel">
+                    <div class="carousel-items">
+                        <div class="item">
+                            <a href="./assets/images_iskolar/1.png" data-lightbox="mygallery"><img src="./assets/images_iskolar/1.png" alt="ss"></a>
+                            <p>Landing Page</p>
+                        </div>
+    
+                        <div class="item">
+                            <a href="./assets/images_iskolar/2.png" data-lightbox="mygallery"><img src="./assets/images_iskolar/2.png" alt="ss"></a>
+                            <p>Login Page</p>
+                        </div>
+    
+                        <div class="item">
+                            <a href="./assets/images_iskolar/3.png" data-lightbox="mygallery"><img src="./assets/images_iskolar/3.png" alt="ss"></a>
+                            <p>Sign-up Page</p>
+                        </div>
+    
+                        <div class="item">
+                            <a href="./assets/images_iskolar/4.png" data-lightbox="mygallery"><img src="./assets/images_iskolar/4.png" alt="ss"></a>
+                            <p>Account Admin Dashboard</p>
+                        </div>
+    
+                        <div class="item">
+                            <a href="./assets/images_iskolar/5.png" data-lightbox="mygallery"><img src="./assets/images_iskolar/5.png" alt="ss"></a>
+                            <p>City Link Dashboard</p>
+                        </div>
+    
+                        <div class="item">
+                            <a href="./assets/images_iskolar/6.png" data-lightbox="mygallery"><img src="./assets/images_iskolar/6.png" alt="ss"></a>
+                            <p>4Ps Grantee Dashboard</p>
+                        </div>
+    
+                        <div class="item">
+                            <a href="./assets/images_iskolar/7.png" data-lightbox="mygallery"><img src="./assets/images_iskolar/7.png" alt="ss"></a>
+                            <p>User Profile</p>
+                        </div>
+                    </div>
+                </div>
+                <a href="javascript:void(0)" class="scroll-btn" id="scrollRight"><i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="content">
+            <h1>Contact Me</h1>
+            <div class="inner-context">
+                <div class="wrapper">
+                    <div class="other-info" title="Email">
+                        <i class="fa-solid fa-at"></i>
+                        <a href="mailto:rescokyle@gmail.com">rescokyle@gmail.com</a>
+                    </div>
+                    
+                    <div class="other-info" title="Address">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>Tacloban, Philippines</p>
+                    </div>
+                </div>
+                <div class="wrapper">
+                    <div class="other-info" title="Phone Number">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>+63 985 193 0995</p>
+                    </div>
+                </div>
+            </div>
+            <div class="links">
+                <a href="https://web.facebook.com/profile.php?id=61551369587302" target="_blank" title="Facebook">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                
+                <a href="https://www.tiktok.com/@resco08" target="_blank" title="TikTok">
+                    <i class="fa-brands fa-tiktok"></i>
+                </a>
+
+                <a href="https://www.instagram.com/resco0208?igsh=YzljYTk1ODg3Zg==" target="_blank" title="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="https://x.com/RescoKyle" target="_blank" title="X or Twitter">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Copyright © 2024. All rights reserved.</p>
+        </div>
+    </section>
+
+    <script src="./assets/lightbox/lightbox_script.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
